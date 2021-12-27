@@ -2,7 +2,9 @@ import discord
 from discord.ext import commands
 import sbsscraper
 
-TOKEN = 'OTI0OTY0NzY3NTA3MDQ2NDMx.YcmOkQ.4MSwavpw120Lsi1PdDrgXLQT35k'
+f = open('TOKEN.txt', 'r')
+TOKEN = f.read()
+f.close()
 
 bot = commands.Bot(command_prefix = '!b ', case_insensitive = True)
 
