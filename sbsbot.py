@@ -26,7 +26,7 @@ async def ping(ctx):
     ping = round(bot.latency *1000)
     await ctx.send(f'{ping}ms')
 
-@bot.command(aliases = ['etags', 'e6tags', 'et'])
+@bot.command()
 async def arrive(ctx, station, service=None):
     station = str(station)
     if service is None:
