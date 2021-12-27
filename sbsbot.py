@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import sbsscraper
 
-f = open('TOKEN.txt', 'r')
+f = open('.gitignore.txt', 'r')
 TOKEN = f.read()
 f.close()
 
